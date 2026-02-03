@@ -127,7 +127,7 @@ if (count) {
   count.textContent = "Total matches recorded: " + getMatches().length;
 }
 
-//Welcome message in console
+// Welcome message in console
 (function () {
   console.log("Welcome to ScrumTime Rugby!");
 })();
