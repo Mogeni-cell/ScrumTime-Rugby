@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Match | ScrumTime Rugby</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ScrumTime Rugby</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="matches.html">Matches</a>
+        <a href="add-match.html">Add Match</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Add New Match</h2>
+
+        <form id="addMatchForm">
+          <input type="text" id="teamA" placeholder="Team A" />
+          <input type="text" id="teamB" placeholder="Team B" />
+          <input type="date" id="date" />
+          <input type="time" id="time" />
+          <input type="text" id="venue" placeholder="Venue" />
+          <select id="status">
+            <option value="">Select Status</option>
+            <option value="Upcoming">Upcoming</option>
+            <option value="Played">Played</option>
+          </select>
+          <input type="text" id="score" placeholder="Score (optional)" />
+          <button type="submit">Add Match</button>
+        </form>
+
+        <p id="formMessage"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 ScrumTime Rugby</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
