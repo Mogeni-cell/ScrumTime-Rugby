@@ -76,7 +76,6 @@ footer {
   background: black;
   color: white;
 }
-
 @media (min-width: 500px) {
   .match-card {
     max-width: 400px;
