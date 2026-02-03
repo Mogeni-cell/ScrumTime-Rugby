@@ -51,3 +51,7 @@ app.js - JavaScript logic for match management
 ## Author
 
 Mogeni Zincy
+
+## Live link
+
+https://mogeni-cell.github.io/ScrumTime-Rugby/
