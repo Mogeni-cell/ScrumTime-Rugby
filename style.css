@@ -60,10 +60,11 @@ form button {
   width: 100%;
   margin-bottom: 0.8rem;
   padding: 0.5rem;
+  cursor: pointer;
 }
 
 button {
-  background: #0b6623;
+  background: red;
   color: white;
   border: none;
   cursor: pointer;
@@ -81,4 +82,9 @@ footer {
     max-width: 400px;
     width: 100%;
   }
+}
+
+button:hover {
+  background: green;
+  color: black;
 }
